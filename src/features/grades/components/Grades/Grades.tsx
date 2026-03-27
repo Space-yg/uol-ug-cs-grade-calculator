@@ -15,14 +15,14 @@ export default function Grades({ degree }: Props) {
 	const modulesInfo = useModulesInfo()
 	const allModulesInfo = addModuleInfoToModules(modulesInfo, modules)
 
-	const totalGrade = Math.round(calculateTotalGrade(allModulesInfo, degree["levels-weights"], ["attempted", "not-attempted"]) * 100) / 100
 	const grade = Math.round(calculateTotalGrade(allModulesInfo, degree["levels-weights"], "attempted") * 100) / 100
 	const gradeOutOf = Math.round(calculateGradeOutOf(allModulesInfo, degree["levels-weights"]) * 100) / 100
+	const totalGrade = Math.round(calculateTotalGrade(allModulesInfo, degree["levels-weights"], ["attempted", "not-attempted"]) * 100) / 100
 
 	return (
 		<div className="grades">
-			<p>Total grade: {totalGrade}%/100%</p>
 			<p>Grade: {Math.round(grade * gradeOutOf / 100 * 100) / 100}/{gradeOutOf} or {grade}%/100%</p>
+			<p>Total grade: {totalGrade}%/100%</p>
 		</div>
 	)
 }

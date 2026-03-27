@@ -25,12 +25,10 @@ export default function App({ }: Props) {
 					{degrees.map(d => <option key={d.abbreviation}>{d.shortname}</option>)}
 				</select>
 			</label>
-			<br /><br />
 
 			<ModulesProvider>
 				{/* Modules table */}
 				<ModulesTable degree={degree} />
-				<br />
 
 				{/* Grade */}
 				<Grades degree={degree} />
