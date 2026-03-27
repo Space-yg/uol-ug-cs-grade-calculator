@@ -12,6 +12,7 @@
 	- When setting the global or local status to RPL, do not change the status of the modules that cannot be RPL'd.
 - [ ] Add versioning page
 - [ ] Make a JSON schema for the degrees
+- [ ] Add meta tags for the website
 
 ## Low Propriety
 
@@ -19,6 +20,7 @@
 	- This will require moving the creating of the choose type modules from `ChooseRequiredModule` to `ModuleTables` so that each row can have a key that corresponds to the selected module
 - [ ] Ability to share grade results via URL
 	- Just add a URL parameter
+- [ ] Fix "A form field element should have an id or name attribute" for all `<select>` and `<input>` elements
 
 ## Not sure...
 

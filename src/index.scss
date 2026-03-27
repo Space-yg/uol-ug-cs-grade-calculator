@@ -2,31 +2,11 @@ body {}
 
 // Make all elements in the center of the screen
 div#root {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	gap: 1em;
-	align-items: center;
 	max-width: 50em;
+	// justify-self: center;
 	margin: auto;
+}
+
+h1, h2 {
 	text-align: center;
-
-	> * {
-		text-align: left;
-	}
-}
-
-h1 {
-	height: 1em;
-}
-
-h2 {
-	height: .5em;
-}
-
-div#root {
-	> p, > ul {
-		margin: 0;
-		width: 100%;
-	}
 }

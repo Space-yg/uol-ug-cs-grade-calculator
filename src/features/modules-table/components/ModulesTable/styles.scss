@@ -17,6 +17,7 @@ div:has(> .modules-table) {
 	overflow-x: auto;
 	border: 1px solid black;
 	max-width: max-content;
+	justify-self: center;
 }
 
 .modules-table {

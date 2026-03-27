@@ -25,12 +25,14 @@ export default function AppWrapper({ }: Props) {
 					{years.map(y => <option key={y}>{y}</option>)}
 				</select>
 			</label>
+			<br />
 
 			<DegreesProvider year={year}>
 				<ModulesInfoProvider year={year}>
 					<App />
 				</ModulesInfoProvider>
 			</DegreesProvider>
+			<br />
 
 			{/* Info */}
 			<h2>Help</h2>
