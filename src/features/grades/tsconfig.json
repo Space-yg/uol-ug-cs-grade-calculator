@@ -1,0 +1,17 @@
+{
+	"extends": "../../../tsconfig.app.json",
+	"compilerOptions": {
+		"paths": {
+			// Global
+			"@/features/*": ["../*"],
+			"@/contexts/*": ["../../contexts/*"],
+			"@/types": ["../../types.d.ts"],
+
+			// Extra local
+			"$/components/*": ["./components/*"],
+			"$/utils/*": ["./utils/*"],
+		},
+	},
+	"include": ["./"],
+	"exclude": []
+}

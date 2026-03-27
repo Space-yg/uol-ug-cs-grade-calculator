@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Diploma in Virtual Reality",
+	"shortname": "GradDip. Virtual Reality",
+	"abbreviation": "GradDip. VR",
+	"specialism": "VR",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2030",
+			"CM3025",
+			"CM3045"
+		],
+		"compulsory": [
+			"CM3055"
+		]
+	},
+	"required-modules": [
+		"CM2030",
+		"CM3025",
+		"CM3045",
+		"CM3055"
+	]
+}

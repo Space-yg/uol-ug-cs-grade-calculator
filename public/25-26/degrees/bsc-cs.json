@@ -1,0 +1,95 @@
+{
+	"name": "Bachelor of Science in Computer Science",
+	"shortname": "BSc. Computer Science",
+	"abbreviation": "BSc. CS",
+	"specialism": null,
+	"levels-weights": {
+		"4": 1,
+		"5": 3,
+		"6": 5
+	},
+	"module-types": {
+		"core": [
+			"CM1005",
+			"CM3070"
+		],
+		"compulsory": [
+			"CM1010",
+			"CM1015",
+			"CM1020",
+			"CM1025",
+			"CM1030",
+			"CM1035",
+			"CM1040",
+			"CM2005",
+			"CM2010",
+			"CM2015",
+			"CM2020",
+			"CM2055",
+			"CM2025",
+			"CM2030",
+			"CM2035",
+			"CM2040"
+		],
+		"optional": [
+			"CM3005",
+			"CM3010",
+			"CM3015",
+			"CM3020",
+			"CM3025",
+			"CM3030",
+			"CM3035",
+			"CM3040",
+			"CM3045",
+			"CM3050",
+			"CM3055",
+			"CM3060",
+			"CM3065"
+		]
+	},
+	"required-modules": [
+		"CM1005",
+		"CM1010",
+		"CM1015",
+		"CM1020",
+		"CM1025",
+		"CM1030",
+		"CM1035",
+		"CM1040",
+		"CM2005",
+		"CM2010",
+		"CM2015",
+		{
+			"type": "choose",
+			"max-amount": 1,
+			"modules": [
+				"CM2020",
+				"CM2045"
+			]
+		},
+		"CM2025",
+		"CM2030",
+		"CM2035",
+		"CM2040",
+		{
+			"type": "choose",
+			"max-amount": 6,
+			"modules": [
+				"CM3005",
+				"CM3010",
+				"CM3015",
+				"CM3020",
+				"CM3025",
+				"CM3030",
+				"CM3035",
+				"CM3040",
+				"CM3045",
+				"CM3050",
+				"CM3055",
+				"CM3060",
+				"CM3065"
+			]
+		},
+		"CM3070"
+	]
+}

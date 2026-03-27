@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Certificate in Physical Computing and the Internet of Things",
+	"shortname": "GradCert. Physical Computing and the Internet of Things",
+	"abbreviation": "GradCert. PC & IoT",
+	"specialism": "PC & IoT",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2040",
+			"CM3040",
+			"CM3065"
+		],
+		"compulsory": [
+			"CM3035"
+		]
+	},
+	"required-modules": [
+		"CM2040",
+		"CM3040",
+		"CM3065",
+		"CM3035"
+	]
+}

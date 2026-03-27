@@ -1,0 +1,62 @@
+// Style a level
+@mixin level-style($level, $main-color, $hover-color) {
+	tr.level-#{$level} {
+		background-color: $main-color;
+
+		// Module
+		&:hover,
+		// Level
+		&:has(td[rowspan]):has(~ tr.level-#{$level}:hover) {
+			background-color: $hover-color;
+		}
+	}
+}
+
+div:has(> .modules-table) {
+	width: 100%;
+	overflow-x: auto;
+	border: 1px solid black;
+	max-width: max-content;
+}
+
+.modules-table {
+	border-collapse: collapse;
+	width: max-content;
+
+	th, td {
+		border: 1px solid black;
+		padding: .5em;
+	}
+
+	tr {
+		// Top
+		> th {
+			border-top: none;
+		}
+
+		// Left
+		> th:first-child,
+		&.level > td {
+			border-left: none;
+		}
+
+		// Right
+		> :last-child {
+			border-right: none;
+		}
+
+		// Bottom
+		&.level:nth-last-child(1 of .level) > td,
+		&:last-child > td {
+			border-bottom: none;
+		}
+	}
+
+	th {
+		background-color: rgb(240, 240, 240);
+	}
+
+	@include level-style(4, rgb(92, 234, 92), rgb(144, 237, 144));
+	@include level-style(5, rgb(252, 255, 101), rgb(255, 253, 156));
+	@include level-style(6, rgb(221, 75, 73), rgb(229, 161, 147));
+}

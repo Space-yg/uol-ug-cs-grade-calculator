@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Certificate in Data Science",
+	"shortname": "GradCert. Data Science",
+	"abbreviation": "GradCert. DS",
+	"specialism": "DS",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2015",
+			"CM3005",
+			"CM3015"
+		],
+		"compulsory": [
+			"CM3010"
+		]
+	},
+	"required-modules": [
+		"CM2015",
+		"CM3005",
+		"CM3015",
+		"CM3010"
+	]
+}

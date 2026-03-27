@@ -1,0 +1,32 @@
+{
+	"name": "Graduate Diploma in Data Science",
+	"shortname": "GradDip. Data Science",
+	"abbreviation": "GradDip. DS",
+	"specialism": "DS",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2015",
+			"CM3005",
+			"CM3015",
+			"CM3070"
+		],
+		"compulsory": [
+			"CM3010",
+			"CM3035",
+			"CM3060"
+		]
+	},
+	"required-modules": [
+		"CM2015",
+		"CM3005",
+		"CM3015",
+		"CM3010",
+		"CM3035",
+		"CM3060",
+		"CM3070"
+	]
+}

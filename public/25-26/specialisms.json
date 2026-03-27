@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Data Science",
+		"abbreviation": "DS"
+	},
+	{
+		"name": "Machine Learning and Artificial Intelligence",
+		"abbreviation": "ML & AI"
+	},
+	{
+		"name": "User Experience",
+		"abbreviation": "UX"
+	},
+	{
+		"name": "Web and Mobile Development",
+		"abbreviation": "Web & MD"
+	},
+	{
+		"name": "Physical Computing and the Internet of Things",
+		"abbreviation": "PC & IoT"
+	},
+	{
+		"name": "Games Development",
+		"abbreviation": "GD"
+	},
+	{
+		"name": "Virtual Reality",
+		"abbreviation": "VR"
+	},
+	{
+		"name": "Web Development",
+		"abbreviation": "WD"
+	},
+	{
+		"name": "Mobile Development",
+		"abbreviation": "MD"
+	}
+]
