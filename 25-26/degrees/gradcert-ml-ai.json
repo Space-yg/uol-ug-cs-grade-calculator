@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Certificate in Machine Learning and Artificial Intelligence",
+	"shortname": "GradCert. Machine Learning and Artificial Intelligence",
+	"abbreviation": "GradCert. ML & AI",
+	"specialism": "ML & AI",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2015",
+			"CM3015",
+			"CM3020"
+		],
+		"compulsory": [
+			"CM3010"
+		]
+	},
+	"required-modules": [
+		"CM2015",
+		"CM3015",
+		"CM3020",
+		"CM3010"
+	]
+}

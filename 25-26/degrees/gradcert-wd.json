@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Certificate in Web Development",
+	"shortname": "GradCert. Web Development",
+	"abbreviation": "GradCert. WD",
+	"specialism": "WD",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2040",
+			"CM3010",
+			"CM3035"
+		],
+		"compulsory": [
+			"CM3055"
+		]
+	},
+	"required-modules": [
+		"CM2040",
+		"CM3010",
+		"CM3035",
+		"CM3055"
+	]
+}

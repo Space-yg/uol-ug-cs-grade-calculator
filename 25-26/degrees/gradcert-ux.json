@@ -1,0 +1,34 @@
+{
+	"name": "Graduate Certificate in User Experience",
+	"shortname": "GradCert. User Experience",
+	"abbreviation": "GradCert. UX",
+	"specialism": "UX",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2020",
+			"CM3050",
+			"CM3055",
+			"CM2055"
+		],
+		"compulsory": [
+			"CM3035"
+		]
+	},
+	"required-modules": [
+		{
+			"type": "choose",
+			"max-amount": 1,
+			"modules": [
+				"CM2020",
+				"CM2045"
+			]
+		},
+		"CM3050",
+		"CM3055",
+		"CM3035"
+	]
+}

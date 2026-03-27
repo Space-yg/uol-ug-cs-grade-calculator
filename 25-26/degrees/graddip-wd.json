@@ -1,0 +1,40 @@
+{
+	"name": "Graduate Diploma in Web Development",
+	"shortname": "GradDip. Web Development",
+	"abbreviation": "GradDip. WD",
+	"specialism": "WD",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2040",
+			"CM3010",
+			"CM3035",
+			"CM3070"
+		],
+		"compulsory": [
+			"CM3055",
+			"CM2020",
+			"CM3050",
+			"CM2045"
+		]
+	},
+	"required-modules": [
+		{
+			"type": "choose",
+			"max-amount": 1,
+			"modules": [
+				"CM2020",
+				"CM2045"
+			]
+		},
+		"CM2040",
+		"CM3010",
+		"CM3035",
+		"CM3055",
+		"CM3050",
+		"CM3070"
+	]
+}

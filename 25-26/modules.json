@@ -1,0 +1,219 @@
+[
+	{
+		"code": "CM1005",
+		"name": "Introduction to Programming I",
+		"abbreviation": "ITP1",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1010",
+		"name": "Introduction to Programming II",
+		"abbreviation": "ITP2",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1015",
+		"name": "Computational Mathematics",
+		"abbreviation": "CM",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1020",
+		"name": "Discrete Mathematics",
+		"abbreviation": "DM",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1025",
+		"name": "Fundamentals of Computer Science",
+		"abbreviation": "FCS",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1030",
+		"name": "How Computers Work",
+		"abbreviation": "HCW",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1035",
+		"name": "Algorithms and Data Structures I",
+		"abbreviation": "ADS1",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM1040",
+		"name": "Web Development",
+		"abbreviation": "WD",
+		"level": 4,
+		"credits": 15
+	},
+	{
+		"code": "CM2005",
+		"name": "Object oriented programming",
+		"abbreviation": "OOP",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2010",
+		"name": "Software Design and Development",
+		"abbreviation": "SDD",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2015",
+		"name": "Programming with Data",
+		"abbreviation": "PwD",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2020",
+		"name": "Agile Software Projects",
+		"abbreviation": "ASP",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2045",
+		"name": "Professional Practice for Computer Scientists",
+		"abbreviation": "PPCS",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2025",
+		"name": "Computer Security",
+		"abbreviation": "CSec",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2030",
+		"name": "Graphics Programming",
+		"abbreviation": "GP",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2035",
+		"name": "Algorithms and data structures II",
+		"abbreviation": "ADS2",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM2040",
+		"name": "Databases, Networks and the Web",
+		"abbreviation": "DNW",
+		"level": 5,
+		"credits": 15
+	},
+	{
+		"code": "CM3005",
+		"name": "Data Science",
+		"abbreviation": "DS",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3010",
+		"name": "Databases and Advanced Data Techniques",
+		"abbreviation": "DADT",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3015",
+		"name": "Machine Learning and Neural Networks",
+		"abbreviation": "MLNN",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3020",
+		"name": "Artificial Intelligence",
+		"abbreviation": "AI",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3025",
+		"name": "Virtual Reality",
+		"abbreviation": "VR",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3030",
+		"name": "Games Development",
+		"abbreviation": "GD",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3035",
+		"name": "Advanced Web Development",
+		"abbreviation": "AWD",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3040",
+		"name": "Physical Computing and Internet of Things",
+		"abbreviation": "PCIoT",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3045",
+		"name": "3D Graphics and Animation",
+		"abbreviation": "3DGA",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3050",
+		"name": "Mobile Development",
+		"abbreviation": "MD",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3055",
+		"name": "Interaction Design",
+		"abbreviation": "ID",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3060",
+		"name": "Natural Language Processing",
+		"abbreviation": "NLP",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3065",
+		"name": "Intelligent Signal Processing",
+		"abbreviation": "ISP",
+		"level": 6,
+		"credits": 15
+	},
+	{
+		"code": "CM3070",
+		"name": "Final Project",
+		"abbreviation": "FP",
+		"level": 6,
+		"credits": 30
+	}
+]

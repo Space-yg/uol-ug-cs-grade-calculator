@@ -1,0 +1,32 @@
+{
+	"name": "Graduate Diploma in Games Development",
+	"shortname": "GradDip. Games Development",
+	"abbreviation": "GradDip. GD",
+	"specialism": "GD",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2005",
+			"CM3030",
+			"CM3045",
+			"CM3070"
+		],
+		"compulsory": [
+			"CM3020",
+			"CM3025",
+			"CM3055"
+		]
+	},
+	"required-modules": [
+		"CM2005",
+		"CM3030",
+		"CM3045",
+		"CM3020",
+		"CM3025",
+		"CM3055",
+		"CM3070"
+	]
+}

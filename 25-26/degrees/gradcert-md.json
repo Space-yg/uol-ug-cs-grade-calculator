@@ -1,0 +1,26 @@
+{
+	"name": "Graduate Certificate in Mobile Development",
+	"shortname": "GradCert. Mobile Development",
+	"abbreviation": "GradCert. MD",
+	"specialism": "MD",
+	"levels-weights": {
+		"5": 1,
+		"6": 1
+	},
+	"module-types": {
+		"core": [
+			"CM2005",
+			"CM3010",
+			"CM3050"
+		],
+		"compulsory": [
+			"CM3035"
+		]
+	},
+	"required-modules": [
+		"CM2005",
+		"CM3010",
+		"CM3050",
+		"CM3035"
+	]
+}
